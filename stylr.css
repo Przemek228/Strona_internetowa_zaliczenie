@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#gora {
+    background-color: black;
+    height: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 900;
+}
+
+
+.gorne {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#g1 {
+    background-color: rgb(26, 26, 26);
+}
+
+#g2 {
+    color: rgb(201, 201, 201);
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+#g2 li {
+    margin-right: 20px;
+}
+
+#g2 a {
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+#g2 a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: width 0.3s ease;
+}
+
+#g2 a:hover {
+    color: red;
+}
+
+#g2 a:hover::before {
+    width: 100%;
+}
+
+#g3 {
+    background-color: rgb(26, 26, 26);
+    color: rgb(201, 201, 201);
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+#g3 li {
+    margin-right: 20px;
+}
+
+#g3 a {
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+    position: relative;
+    transition: color 0.3s ease;
+    margin-right: 10px;
+}
+
+#g3 a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: red;
+    transition: width 0.3s ease;
+}
+
+#g3 a:hover {
+    color: red;
+}
+
+#g3 a:hover::before {
+    width: 100%;
+}
+
+#g3 a:hover img {
+    transform: rotate(360deg);
+    transition: transform 1s ease;
+    filter: grayscale(0%) hue-rotate(0deg);
+}
+
+.gorne img {
+    height: 100%;
+}
+
+#logo-link {
+    display: flex;
+    height: 95%;
+}
+
+#fb-link,
+#ig-link,
+#mail-link {
+    display: flex;
+    height: 25%;
+}
+
+Table tr {
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tlo {
+    background-image: url('zdj/bgblack.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1080px;
+    animation: zoomOutBackground1 20s infinite alternate; 
+    width: 100%;
+}
+
+@keyframes zoomOutBackground1 {
+    from {
+        background-size: 120%; 
+    }
+    to {
+        background-size: 100%; 
+    }
+}
+
+.boki {
+    float: left;
+    width: 15%;
+    height: 100%;
+}
+
+#srodek {
+    margin-top: 135px;
+    margin-bottom: 25px;
+    width: 70%;
+    float: left;
+    color: rgb(150, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: auto;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#stopka {
+    float: left;
+    background-color: rgb(20, 20, 20);
+    width: 70%;
+    height: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.bokis {
+    background-color: rgb(20, 20, 20);
+    float: left;
+    width: 15%;
+    height: 140%;
+}
+
+.stopka-czesc {
+    display: flex;
+    flex-direction: column;
+}
+
+.stopka-czesc a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.stopka-czesc a:hover {
+    color: rgb(128, 128, 128);
+}
+
+#stopka img {
+    height: 100%;
+}
+
+#stopa {
+    height: 100px;
+    background-color: black;
+}
+
